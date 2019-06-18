@@ -5,6 +5,7 @@ public class BubbleSort implements Sort {
     public void sort(int[] a) {
         for (int i = 0; i < a.length ; i++){
             int cur = 0;
+            
             for (int j = 0; j < a.length  - i; j++)
                 if(a[cur] > a[j])
                 {
